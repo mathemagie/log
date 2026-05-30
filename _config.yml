@@ -1,0 +1,26 @@
+# Site settings
+title: Mathemagie Blog
+description: Articles techniques sur l'IA, les LLM et les workflows de développement.
+author: mathemagie
+lang: fr
+
+# GitHub Pages serves a project repo named "blog2" at:
+#   https://mathemagie.github.io/blog2
+# These two values must match that URL.
+url: "https://mathemagie.github.io"
+baseurl: "/blog2"
+
+# Build settings — minima is the default theme bundled with GitHub Pages.
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Don't process these in the build output.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - .gitignore
