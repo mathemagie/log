@@ -3,6 +3,7 @@ layout: post
 title: "Bienvenue sur le blog"
 date: 2026-05-30 10:00:00 +0100
 categories: meta
+tags: [jekyll, github-pages]
 ---
 
 Premier article de test 🎉

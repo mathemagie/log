@@ -3,6 +3,7 @@ layout: post
 title: "SKILL.md : transformer l'IA en véritable professeur"
 date: 2026-06-06 10:00:00 +0100
 categories: ia llm prompts
+tags: [claude, prompt-engineering, apprentissage]
 ---
 
 Un [gist de ThariqS](https://gist.github.com/ThariqS/1389dcdff9eba4789887a2211370f06b)
