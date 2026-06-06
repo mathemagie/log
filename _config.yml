@@ -4,11 +4,11 @@ description: Articles techniques sur l'IA, les LLM et les workflows de développ
 author: mathemagie
 lang: fr
 
-# GitHub Pages serves a project repo named "blog2" at:
-#   https://mathemagie.github.io/blog2
+# GitHub Pages serves a project repo named "blog" at:
+#   https://mathemagie.github.io/blog
 # These two values must match that URL.
 url: "https://mathemagie.github.io"
-baseurl: "/blog2"
+baseurl: "/blog"
 
 # Build settings — minima is the default theme bundled with GitHub Pages.
 theme: minima

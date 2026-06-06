@@ -6,7 +6,7 @@ A Jekyll blog published via GitHub Pages.
 
 ```bash
 bundle install          # first time only
-bundle exec jekyll serve # http://localhost:4000/blog2/
+bundle exec jekyll serve # http://localhost:4000/blog/
 ```
 
 > Requires a Ruby with Bundler. The system Ruby 2.6 may be too old for the
@@ -32,11 +32,8 @@ Then `git commit` and `git push`. GitHub rebuilds automatically.
 
 ## Deploy to GitHub Pages
 
-This repo is intended to publish at **https://mathemagie.github.io/blog2**.
+This repo is intended to publish at **https://mathemagie.github.io/blog**.
 
-1. Push this directory to a GitHub repo named `blog2` under the `mathemagie` account.
+1. Push this directory to a GitHub repo named `blog` under the `mathemagie` account.
 2. In the repo: **Settings → Pages → Build and deployment → Source: Deploy from a branch**.
 3. Select branch `main` (or `master`), folder `/ (root)`, and Save.
-
-If you want the URL to be `/blog` instead of `/blog2`, name the repo `blog`
-and change `baseurl: "/blog"` in `_config.yml`.
