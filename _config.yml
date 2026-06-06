@@ -10,6 +10,9 @@ lang: fr
 url: "https://mathemagie.github.io"
 baseurl: "/blog"
 
+# Clean post URLs: /blog/<title>/ — no dates or categories (SEO best practice).
+permalink: /:title/
+
 # Build settings — minima is the default theme bundled with GitHub Pages.
 theme: minima
 plugins:
