@@ -32,8 +32,8 @@ Then `git commit` and `git push`. GitHub rebuilds automatically.
 
 ## Deploy to GitHub Pages
 
-This repo is intended to publish at **https://mathemagie.github.io/log**.
+This repo publishes at **https://mathemagie.github.io/log** via GitHub Actions
+(`.github/workflows/jekyll.yml`), which builds with the latest Jekyll 4.x.
 
-1. Push this directory to a GitHub repo named `log` under the `mathemagie` account.
-2. In the repo: **Settings → Pages → Build and deployment → Source: Deploy from a branch**.
-3. Select branch `main` (or `master`), folder `/ (root)`, and Save.
+Pages must be configured with **Settings → Pages → Source: GitHub Actions**.
+Every push to `main` triggers a build and deploy.

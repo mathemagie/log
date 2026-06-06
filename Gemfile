@@ -1,8 +1,11 @@
 source "https://rubygems.org"
 
-# Use the github-pages gem so your local build matches what GitHub Pages
-# runs in production. This pins Jekyll and all supported plugins.
-gem "github-pages", group: :jekyll_plugins
+# Latest Jekyll — built and deployed via GitHub Actions
+# (.github/workflows/jekyll.yml), not the classic Pages branch build.
+gem "jekyll", "~> 4.4"
+
+# Hacker theme (terminal look)
+gem "jekyll-theme-hacker"
 
 # Plugins enabled in _config.yml
 group :jekyll_plugins do
