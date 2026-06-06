@@ -9,9 +9,7 @@ bundle install          # first time only
 bundle exec jekyll serve # http://localhost:4000/log/
 ```
 
-> Requires a Ruby with Bundler. The system Ruby 2.6 may be too old for the
-> latest `github-pages` gem — install a newer Ruby (e.g. via `rbenv install 3.3.x`)
-> if `bundle install` complains.
+> Requires Ruby 3.x (Jekyll 4). Installed locally via `rbenv` (Ruby 3.3.11).
 
 ## Publish a new post
 

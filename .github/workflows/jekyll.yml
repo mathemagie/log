@@ -24,11 +24,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3"
-          # No Gemfile.lock committed (local Ruby too old to generate one),
-          # so install without the lockfile-based cache.
-          bundler-cache: false
-      - name: Install dependencies
-        run: bundle install
+          bundler-cache: true
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
