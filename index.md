@@ -13,5 +13,3 @@ title: Accueil
     </li>
   {% endfor %}
 </ul>
-
-<p><a href="{{ '/about/' | relative_url }}">À propos</a></p>
