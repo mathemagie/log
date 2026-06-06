@@ -13,16 +13,14 @@ baseurl: "/log"
 # Clean post URLs: /blog/<title>/ — no dates or categories (SEO best practice).
 permalink: /:title/
 
-# Build settings — load minima 3.x as a remote theme to get skin support
-# (GitHub Pages bundles minima 2.5.1, which has no skins).
-remote_theme: jekyll/minima
-minima:
-  skin: dark
+# Build settings — Hacker theme (terminal look), bundled with GitHub Pages.
+# It only provides "default" and "post" layouts, so the homepage lists
+# posts itself (see index.md).
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-remote-theme
 
 # Don't process these in the build output.
 exclude:
